@@ -33,7 +33,7 @@ export const App = () => {
       )}
       <div>
         <ListComponent movies={movies} />
-        <button className="button-primary" onClick={nextList}>
+        <button className="button-load-more" onClick={nextList}>
           Load more
         </button>
       </div>

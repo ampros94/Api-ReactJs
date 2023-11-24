@@ -21,7 +21,22 @@ body {
   border-radius: 5px;
   color: var(--color);
   transition: 0.2s;
+  font-weight: 700;
 }
-.button-primary:hover {
+.button-primary:hover{
+  background: var(--primary-hover);
+}
+.button-load-more {
+  width: 50%;
+  border: none;
+  padding: 5px 30px;
+  background: var(--primary);
+  border-radius: 5px;
+  color: var(--color);
+  transition: 0.2s;
+  margin: 20px 25%;
+  font-weight: 700;
+}
+.button-load-more:hover {
   background: var(--primary-hover);
 }

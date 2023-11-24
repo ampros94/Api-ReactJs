@@ -23,3 +23,9 @@
   font-weight: bold;
   font-size: 2rem;
 }
+
+@media (max-width: 425px) {
+  .nav-bar-logo-item{
+    width: 10px;
+  }
+}
