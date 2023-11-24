@@ -1,0 +1,25 @@
+.nav-bar {
+  width: 100%;
+  padding: 0px 30px;
+  background: var(--foreground);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav-bar-menu-item,
+.nav-bar-logo-item {
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+  padding: 10px;
+}
+.nav-bar-logo-item {
+  font-weight: bold;
+  font-size: 2rem;
+}
